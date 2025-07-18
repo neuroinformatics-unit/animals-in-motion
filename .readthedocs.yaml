@@ -13,6 +13,6 @@ build:
       - python -c "import matplotlib"
     build:
       html:
-        - cd book/ && jupyter book build --html --execute
+        - cd book/ && jupyter book build --ci --html --execute
         - mkdir -p $READTHEDOCS_OUTPUT
         - mv ./book/_build/html $READTHEDOCS_OUTPUT
