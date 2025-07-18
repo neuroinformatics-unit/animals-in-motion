@@ -7,3 +7,6 @@ _book/
 .ipynb_checkpoints/
 .idea/
 
+
+# MyST build outputs
+_build

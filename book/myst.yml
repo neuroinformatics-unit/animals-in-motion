@@ -1,0 +1,34 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9efcc7ff-5c0a-471f-8ca0-a8e7367dd027
+  title: "Animals in Motion"
+  description: "A handbook for analysing animal motions based on videos."
+  keywords:
+    - animal motion
+    - video analysis
+    - movement
+    - pose estimation
+    - computer vision
+    - SLEAP
+    - jupyter-book
+  authors:
+    - name: Niko Sirmpilatze
+    - name: Sofía Miñano
+    - name: Chang Huan Lo
+  github: https://github.com/neuroinformatics-unit/animals-in-motion
+  bibliography: references.bib
+  toc:
+    - file: index.md
+    - file: 01-intro.md
+    - file: 02-neural-networks.md
+    - file: 03-sleap-tutorial.md
+    - file: 04-movement-tutorial.md
+site:
+  template: book-theme
+  options:
+    logo: images/animals-in-motion-logo.png
+    logo_text: "Animals in Motion"
+    favicon: images/animals-in-motion-logo.png
+    folders: true  # folder structure is reflected in URLs
+    # style: ./custom.css

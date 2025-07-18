@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Niko Sirmpilatze
+---
+
 # Introduction
 
 We'll provide an overview of the approaches used for quantifying animal behaviour, and we'll narrow down into Computer Vision (CV) methods for detecting and tracking animals in videos.

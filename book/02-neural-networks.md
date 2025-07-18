@@ -1,3 +1,8 @@
+---
+authors:
+  - name: Sofía Miñano
+---
+
 # Neural Network Primer
 
 All you need to know about neural networks to understand the rest of the course.
